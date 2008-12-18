@@ -1,0 +1,28 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+# one:
+#   column: value
+#
+# two:
+#   column: value
+
+valid_spec:
+  user_id: 1
+  first_name: Kip
+  last_name: Thorne
+  gender: Male
+  birthdate: 1940-06-01
+  occupation: Feynman Professor of Theoretical Physics
+  city: Pasadena
+  state: CA
+  zip_code: 91125
+  
+blank_spec:
+  user_id: 2
+
+
+invalid_spec:
+  user_id: 3
+  gender: Neither
+  zip_code: Cali
+  
